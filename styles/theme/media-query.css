@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .row__col-1-2 {
+    float: none;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .row__form--login-form {
+    position: relative;
+  }
+
+  .row__form--signup-form {
+    position: relative;
+    position: relative;
+    top: -30rem;
+  }
+
+
+  .row__togglelabel {
+    position: relative;
+    top: 8rem;
+    left: 64%;
+  }
+}
+
+@media (max-width: 478px) {
+  .row__col-1-2 {
+    float: none;
+    width: 100%;
+  }
+}

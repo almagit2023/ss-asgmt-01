@@ -1,0 +1,16 @@
+:root {
+  --root-font-size: 62.5%;
+
+  --gutter-horizontal-width: 3.2rem;
+  --main-container-width: 125.2rem;
+
+  --base-font-size: 1.6rem;
+  --base-font-family: "Nunito", serif;
+
+  --header-height: 10rem;
+  --primary-white-color: #fff;
+
+  --footer-height: 20rem;
+  --dark-grey-color: #6C757D;
+  --toggle-background-color: #007BFF;
+}

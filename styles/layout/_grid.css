@@ -1,0 +1,28 @@
+.row {
+  max-width: var(--main-container-width);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.row__col-1-1 {
+  width: calc(100% - var(--gutter-horizontal-width));
+}
+
+.row__col-1-2 {
+  width: calc((100% - var(--gutter-horizontal-width))/2);
+}
+
+.row [class ^=row__col-]:not(:last-child) {
+  margin-right: var(--gutter-horizontal-width);
+}
+
+.row [class*=row__col-] {
+  float: left;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,58 @@
+.row__togglebtn {
+  display: none;
+}
+
+.row__togglelabel {
+  position: absolute;
+  display: table;
+  clear: both;
+  background-color: var(--dark-grey-color);
+  width: 5.4rem;
+  height: 3.2rem;
+  border-radius: 100px;
+  cursor: pointer;
+  z-index: 4;
+  left: 82%;
+  top: 4rem;
+}
+
+.row__togglelabel::before {
+  position: absolute;
+  content: '';
+  clear: both;
+  display: table;
+  background-color: var(--primary-white-color);
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  margin: 4px;
+  transition: all 0.2s;
+}
+
+input:checked+.row__togglelabel {
+  background-color: var(--toggle-background-color);
+}
+
+input:checked+.row__togglelabel::before {
+  transform: translateX(2.2rem);
+}
+
+.row__toggletext--notamember {
+  opacity: 1;
+}
+
+.row__togglebtn:checked~.forms .row__form--signup-form {
+  transform: translateX(0%);
+}
+
+.row__togglebtn:checked~.forms .row__form--login-form {
+  transform: translateX(100%);
+}
+
+.row__togglebtn:checked~.row__toggletext--notamember {
+  opacity: 0;
+}
+
+.row__togglebtn:checked~.row__toggletext--alreadymember {
+  opacity: 1;
+}

@@ -1,0 +1,67 @@
+/* Form label styles */
+.row__form label {
+  margin-bottom: 0.5rem;
+
+}
+
+/* Form input styles */
+.row__form input {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.row__form button {
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+.row__form button:hover {
+  background-color: #45a049;
+}
+
+
+.row__form label {
+  font-weight: bold;
+}
+
+
+.row__form button {
+  padding: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.row__form button:hover {
+  background-color: #0056b3;
+}
+
+.forms {
+  height: auto;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+}
+
+.row__toggletext--notamember {
+  opacity: 1;
+  position: relative;
+  left: 64%;
+}
+
+.row__toggletext--alreadymember {
+  opacity: 1;
+  position: relative;
+  left: 45%;
+  opacity: 0;
+}

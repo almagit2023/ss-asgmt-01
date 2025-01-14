@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>Responsive Form Design</title>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <header class="row">
+      <header class="row__header">
+        <section class="row__col-1-1 row__header-heading">
+          <h1>Sliding Form Design</h1>
+        </section>
+        <nav class="row__col-1-1 row__header-nav">
+          <ul class="row__header-nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </header>
+
+    <section class="main-section">
+      <main>
+        <div class="row">
+          <!-- Left Column with Lottie Animation -->
+          <div class="row__col-1-2">
+            <!-- <div id="lottie-animation"></div> -->
+            <img src="./assets/svg/landing-image.svg" alt="">
+          </div>
+
+          <!-- Right Column with Signup Form -->
+          <div class="row__col-1-2 row__form">
+
+            <input type="checkbox" class="row__togglebtn" id="toggle-form">
+            <label for="toggle-form" class="row__togglelabel"></label>
+            <span class="row__toggletext--notamember">Not a Member?</span>
+            <span class="row__toggletext--alreadymember">Already a member ?</span>
+
+
+            <div class="forms">
+              <form class=" row__form row__form--login-form">
+                <h2>Login Form</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit">Log In</button>
+              </form>
+
+              <form class=" row__form row__form--signup-form">
+                <h2>Signup Form</h2>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password"
+                  required>
+
+                <button type="submit">Signup</button>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <footer class="row">
+      <section class="row__col-1-1">
+        <p>&copy; 2025 Responsive Design. All rights reserved.</p>
+      </section>
+    </footer>
+  </div>
+</body>
+
+</html>

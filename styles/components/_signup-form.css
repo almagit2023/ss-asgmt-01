@@ -1,0 +1,10 @@
+.row__form--signup-form {
+  position: absolute;
+  transform: translateX(100%);
+  transition: 0.5s all ease;
+  z-index: 2;
+  height: 35rem;
+  background-color: #eaeaea;
+  padding: 2rem 2.5rem;
+  border-radius: 4px;
+}
